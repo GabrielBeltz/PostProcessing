@@ -5,23 +5,29 @@ using UnityEngine.Rendering;
 
 public class VolumeController : MonoBehaviour
 {
-    [ContextMenuItem("Set", "EnableEffect")]
-    public bool Activated;
+    public bool sinVariation;
     [ContextMenuItem("Get", "GetVolume")]
-    public Volume volume;
+    public Volume originalVolume;
+    public Volume priorityVolume;
 
-    private void Start()
+    private void Update()
     {
-
-    }
-
-    public void EnableEffect()
-    {
-        
+        if (sinVariation)
+        {
+            float newValue = Mathf.Sin(Time.time);
+            if (newValue > 0)
+            {
+                priorityVolume.weight = newValue;
+            }
+            else
+            {
+                originalVolume.weight = -newValue;
+            }
+        }
     }
 
     public void GetVolume()
     {
-        volume = this.GetComponent<Volume>();
+        originalVolume = this.GetComponent<Volume>();
     }
 }
