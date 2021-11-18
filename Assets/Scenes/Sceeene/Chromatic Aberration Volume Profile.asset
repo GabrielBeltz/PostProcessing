@@ -30,10 +30,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 3
   spectralLut:
     m_OverrideState: 1
-    m_Value: {fileID: 2800000, guid: 83f20033bbfa9364a896ce61abed992c, type: 3}
+    m_Value: {fileID: 2800000, guid: 3f69bf5e1dbbde7468101fe9973c55f1, type: 3}
   intensity:
     m_OverrideState: 1
     m_Value: 1
@@ -41,6 +41,6 @@ MonoBehaviour:
     max: 1
   m_MaxSamples:
     m_OverrideState: 1
-    m_Value: 12
+    m_Value: 24
     min: 3
     max: 24

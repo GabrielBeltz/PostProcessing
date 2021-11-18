@@ -15,14 +15,7 @@ public class VolumeController : MonoBehaviour
         if (sinVariation)
         {
             float newValue = Mathf.Sin(Time.time);
-            if (newValue > 0)
-            {
-                priorityVolume.weight = newValue;
-            }
-            else
-            {
-                originalVolume.weight = -newValue;
-            }
+            priorityVolume.weight = Mathf.Abs(newValue);
         }
     }
 

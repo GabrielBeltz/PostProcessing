@@ -36,12 +36,12 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 3.97
     min: 0
     max: 4
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
     min: 0
     max: 1
   radius:
@@ -51,15 +51,15 @@ MonoBehaviour:
     max: 5
   spatialBilateralAggressiveness:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.812
     min: 0
     max: 1
   temporalAccumulation:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
   ghostingReduction:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.812
     min: 0
     max: 1
   blurSharpness:
@@ -74,15 +74,15 @@ MonoBehaviour:
       m_Bits: 4294967295
   m_StepCount:
     m_OverrideState: 1
-    m_Value: 16
+    m_Value: 6
     min: 2
     max: 32
   m_FullResolution:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   m_MaximumRadiusInPixels:
     m_OverrideState: 1
-    m_Value: 63
+    m_Value: 40
     min: 16
     max: 256
   m_BilateralUpsample:
@@ -90,7 +90,7 @@ MonoBehaviour:
     m_Value: 1
   m_DirectionCount:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 1
     min: 1
     max: 6
   m_RayLength:

@@ -24,18 +24,18 @@ MonoBehaviour:
     max: 100
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 1.528302, g: 1.2410522, b: 0.72810614, a: 1}
+    m_Value: {r: 6.48251, g: 3.9445465, b: 3.9445465, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
   hueShift:
     m_OverrideState: 1
-    m_Value: -180
+    m_Value: 0
     min: -180
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 100
     min: -100
     max: 100
 --- !u!114 &11400000
